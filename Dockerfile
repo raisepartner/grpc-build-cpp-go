@@ -1,6 +1,6 @@
-ARG GRPC_BUILD_VERSION=latest
+ARG GRPC_BUILD_PYTHON_VERSION=0.1
 
-FROM raisepartner/grpc-build-cpp:${GRPC_BUILD_VERSION}
+FROM raisepartner/grpc-build-python:${GRPC_BUILD_PYTHON_VERSION}
 
 # install golang
 ENV GOLANG_VERSION=1.13
